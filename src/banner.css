@@ -1,0 +1,60 @@
+@media (max-width: 1440px) {
+    .img2{
+        width: 100%;
+         height: 450px;
+    }
+    
+}
+
+.head{
+    position: relative;
+    
+  }
+    
+    /* this the banner icon directly below the nav bar */
+    .img2{
+        width: 100%;
+         height: 350px;
+        object-fit: cover;
+        transition: smooth;
+        object-position: center;
+       }
+  
+  
+  
+       /* text on the  banner */
+  .hover{
+     display: none;
+  
+    position: absolute;
+    color: rgb(252, 252, 252);
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    top: 20%;
+    right: 20%;
+     background-color: gray;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 30px;
+  }   .hover:hover{ color: red; background-color: white;}
+  
+   
+  
+  
+
+  /* the card below the Banner which is located at the file of Main.js */
+  .availabe{
+       color: black;
+       padding-bottom: 3px;
+  }
+
+
+  .card{
+    padding-top: 10px;
+    max-width: 80rem;
+    padding: 12px;
+    margin-right: auto;
+    margin-left: auto;
+  }
